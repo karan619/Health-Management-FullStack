@@ -1,0 +1,319 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+.container {
+  width: 100%;
+  max-width: 100%;
+  padding: 50px 100px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* universal */
+
+h1 {
+  color: #00518f;
+  font-weight: bolder;
+  font-size: 28px;
+}
+
+h2 {
+  color: #00518f;
+  font-weight: bolder;
+  font-size: 26px;
+}
+
+h3 {
+  color: #00518f;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+h4 {
+  color: #00518f;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+p {
+  color: #666666;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+/* end of universal */
+
+/* home page */
+
+.hero {
+  background-image: url("./images/medical-dr-online-left.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding: 50px 100px;
+  min-height: 100vh;
+}
+
+.welcome-section {
+  margin-top: 100px;
+  padding: 0px 100px;
+}
+
+.mission {
+  padding: 40px 0px 20px 0px;
+}
+
+.mission-stmt {
+  padding: 0px 70px;
+}
+
+.icon {
+  max-width: 150px;
+  height: auto;
+  padding: 20px;
+}
+
+.bottomImage {
+  background-image: url("./images/medical-background-off-white.jpg");
+  background-position: center;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  padding: 50px 100px;
+  min-height: 100vh;
+}
+
+.bottom-section {
+  margin-top: 100px;
+  padding: 0px 100px;
+}
+
+.bottom-h1 {
+  padding-bottom: 10px;
+}
+
+.bottom-h2 {
+  padding-bottom: 10px;
+}
+
+.bottom-p {
+  padding: 0px 40px 10px 40px;
+}
+
+.li {
+  text-align: left;
+  justify-content: left;
+}
+
+.two-col-titles {
+  padding: 10px;
+  background-color: #00518f;
+  margin: 10px;
+}
+
+.two-col-titles-h2 {
+  color: #ffffff;
+}
+
+/* end cv page */
+.topnav {
+  overflow: hidden;
+  background-color: #00518f;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 15px 15px;
+  text-decoration: none;
+  font-size: 28px;
+  font-weight: bold;
+  width: auto;
+}
+
+.form {
+  font-size: 14pt;
+  font-family: Georgia;
+  text-align: center;
+  line-height: 2em;
+  color: #666666;
+  padding: 20px;
+  margin: 10px;
+}
+
+/* footer */
+
+.footer {
+  color: #fdfdfd;
+  padding: 30px;
+  text-align: center;
+  background-color: #00518f;
+}
+
+.why-choose-text {
+  padding: 50px 0px 0px 0px;
+}
+
+.footer-section p {
+  color: aliceblue;
+}
+
+.copyright {
+  text-align: center;
+}
+
+/* end footer section */
+
+/*Admin Login Page*/
+
+#login-name {
+  min-height: 65vh;
+  text-align: center;
+  padding: 5px 25px 5px 25px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#name {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  background: #b8d0e4;
+  padding: 10px 30px 10px 30px;
+}
+
+#password {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  background: #a7d2f5;
+  padding: 10px 30px 10px 30px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #cccccc;
+  background: #00518f;
+  color: #edebe7;
+  font-size: 18px;
+  line-height: 1.5em;
+  padding: 10px 30px 10px 30px;
+  font-weight: bolder;
+  transition: all 200ms ease;
+  box-shadow: #777777 0px 8px 16px 0px;
+  cursor: pointer;
+}
+
+/*contact page*/
+
+.form {
+  background-color: alicebluegi;
+}
+
+#name {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  background: #a7d2f5;
+  padding: 10px 30px 10px 30px;
+}
+
+#email {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  background: #a7d2f5;
+  padding: 10px 30px 10px 30px;
+}
+
+#phoneNumber {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  background: #a7d2f5;
+  padding: 10px 30px 10px 30px;
+}
+
+#content {
+  display: block;
+  margin: 10px auto;
+  border: 1px solid #cccccc;
+  background: #a7d2f5;
+  padding: 10px 30px 10px 30px;
+}
+
+.button-contact {
+  display: block;
+  margin: 20px auto;
+  border: 1px solid #cccccc;
+  background: #00518f;
+  color: #edebe7;
+  font-size: 18px;
+  line-height: 1.5em;
+  padding: 10px 30px 10px 30px;
+  font-weight: bolder;
+  box-shadow: #666666 0px 8px 16px 0px;
+}
+
+/*Admin Interface*/
+
+.userName {
+  padding: 50px;
+  margin-left: auto;
+}
+
+/*table {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}*/
+
+th,
+td {
+  border-bottom: 1px solid #98b4cb;
+  border-collapse: collapse;
+  padding: 20px 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #00518f;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 16px;
+}
+
+tr:hover {
+  background-color: #aaa9a9;
+  color: #edebe7;
+}
+
+/*admin interface style*/
+.top-heading {
+  font-size: 18px;
+  color: #00518f;
+}
+
+.hello {
+  background-color: #5db4d6;
+  padding-left: 300px;
+}
+
+.appointment-portal {
+  min-height: 95vh;
+}
+
+.register-patient {
+  min-height: 90vh;
+}
